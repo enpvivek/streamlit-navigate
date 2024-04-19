@@ -3,3 +3,4 @@ streamlit_lottie
 elasticsearch
 requests
 sentence_transformers
+streamlit_shadcn_ui
