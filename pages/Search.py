@@ -12,7 +12,7 @@ try:
     es = Elasticsearch(
     "https://localhost:9200",
     basic_auth=("elastic", "divij23"),
-    ca_certs="/Users/Suresh Babu/elasticsearch-8.13.2/config/certs/http_ca.crt"
+    #ca_certs="/Users/Suresh Babu/elasticsearch-8.13.2/config/certs/http_ca.crt"
     )
 except ConnectionError as e:
     print("Connection Error:", e)
