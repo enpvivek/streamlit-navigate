@@ -10,7 +10,7 @@ indexName2="all_productsps"
 
 try:
     es = Elasticsearch(
-    "https://localhost:9200",
+    "http://127.0.0.1:9200",
     basic_auth=("elastic", "divij23"),
     #ca_certs="/Users/Suresh Babu/elasticsearch-8.13.2/config/certs/http_ca.crt"
     )
